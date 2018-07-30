@@ -3,6 +3,7 @@ FROM jenkinsci/slave:latest as jenkins-agent
 
 # Set Android SDK path
 ENV ANDROID_HOME "/opt/android-sdk"
+ENV ANDROID_NDK_HOME "/opt/android-sdk/ndk-bundle"
 
 VOLUME $ANDROID_HOME
 # Copy preconfigured Android SDK
