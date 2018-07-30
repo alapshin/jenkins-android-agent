@@ -5,7 +5,7 @@ Docker image for Jenkins build agent containing Android SDK.
 ## Build
 To build image run
 ```
-docker-build -t username/jenkins-android-agent .
+docker build -t username/jenkins-android-agent .
 ```
 
 Take into account that `Dockerfile` uses [multi-stage build][2] to copy
