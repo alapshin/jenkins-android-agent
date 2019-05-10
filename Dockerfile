@@ -1,7 +1,7 @@
 FROM jenkinsci/slave:latest as jenkins-agent
 
 ARG PACKAGES="git make wget unzip"
-ARG ANDROID_SDK_URL="https://dl.google.com/android/repository/sdk-tools-linux-3859397.zip"
+ARG ANDROID_SDK_URL="https://dl.google.com/android/repository/sdk-tools-linux-4333796.zip"
 ARG ANDROID_PACKAGES="tools platform-tools build-tools;28.0.1 platforms;android-27 extras;google;m2repository extras;android;m2repository ndk-bundle"
 
 # Become root
