@@ -2,7 +2,7 @@ FROM jenkins/slave:3.29-1-jdk11
 
 ARG PACKAGES="file git make wget unzip libtinfo5"
 ARG ANDROID_SDK_URL="https://dl.google.com/android/repository/sdk-tools-linux-4333796.zip"
-ARG ANDROID_PACKAGES="tools platform-tools build-tools;28.0.3 platforms;android-28 extras;google;m2repository extras;android;m2repository ndk-bundle"
+ARG ANDROID_PACKAGES="tools platform-tools build-tools;28.0.3 platforms;android-28 extras;google;m2repository extras;android;m2repository ndk-bundle ndk;20.0.5594570"
 
 # Become root
 USER root
