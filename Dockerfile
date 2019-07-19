@@ -1,4 +1,4 @@
-FROM jenkinsci/slave:3.27-1-jdk11
+FROM jenkins/slave:3.29-1-jdk11
 
 ARG PACKAGES="file git make wget unzip libtinfo5"
 ARG ANDROID_SDK_URL="https://dl.google.com/android/repository/sdk-tools-linux-4333796.zip"
